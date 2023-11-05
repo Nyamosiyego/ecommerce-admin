@@ -1,4 +1,4 @@
-import Users from "@/model/Schema";
+import Users from "@/models/Schema";
 import { mongooseConnect } from "@/lib/mongoose";
 
 export default async function handler(req, res) {
