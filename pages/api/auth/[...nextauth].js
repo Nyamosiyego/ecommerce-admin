@@ -15,7 +15,7 @@ export const authOptions = {
     }),
   ],
   adapter: MongoDBAdapter(clientPromise),
-  ccallbacks: {
+  callbacks: {
     session: async ({ session, user, token }) => {
       if (adminEmails.includes(session?.user?.email)) {
         const userId = token.sub; // Access the sub property from the token object
