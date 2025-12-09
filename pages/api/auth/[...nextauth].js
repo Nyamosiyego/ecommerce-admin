@@ -5,7 +5,7 @@ import clientPromise from "@/lib/mongodb";
 import {Admin} from "@/models/Admin";
 import {mongooseConnect} from '@/lib/mongoose';
 
-const adminEmails = ["omwegaedmond@gmail.com", "lalettywambo@gmail.com", "22403799@students.kcau.ac.ke", "nyamosiyego@gmail.com"]
+const adminEmails = ["omwegaedmond@gmail.com", "lalettywambo@gmail.com", "2403799@students.kcau.ac.ke", "nyamosiyego@gmail.com"]
 
 export const authOptions = {
   providers: [
